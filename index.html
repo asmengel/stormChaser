@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>stormChaser</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main role="main">
+        <section class="js-start">
+            <form class="js-form form-homepage">
+                <h1 class="title">stormChaser</h1>
+                <input type="text" class="js-input input-homepage" placeholder="Search">
+                <button class="js-search-button button">Search</button>
+            </form>
+        </section>
+        <section class="js-results hidden">
+            <form class="js-form form-results">
+                <input type="text" class="js-input input-results" placeholder="Search">
+                <button class="js-re-search-button button">Search</button>
+            </form>
+            <div class="button-css-container">
+                <button class="js-weather-button button-results" data-date='today'>Today</button>
+                <button class="js-weather-button button-results" data-date='3Day'>3 Day</button>
+                <button class="js-weather-button button-results" data-date='5Day'>5 Day</button>
+            </div>
+            <div class="js-results-container results-container">        
+            </div>
+        </section>
+    </main>
+    <script src="https://use.fontawesome.com/1d7f49a0f4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

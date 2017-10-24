@@ -1,0 +1,143 @@
+.title { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px; 
+    font-weight: 900; 
+    color: white;
+    margin-bottom: 20px; 
+}
+
+p, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2d2d2d; 
+}
+
+p {
+    font-size: 18px; 
+}
+
+body {
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    background: url('/images/storm2.jpg') no-repeat center fixed;
+    padding-bottom: 100px; 
+}
+
+.hidden {
+    display: none; 
+}
+
+.sun-icon {
+    color: yellow; 
+    float: right; 
+}
+
+.form-homepage {
+    text-align: center; 
+    margin-top: 180px; 
+}
+
+.form-results {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.input-homepage {
+    width: 35%; 
+    padding: 7px 12px; 
+    border: 1px solid gray; 
+    border-radius: 6px; 
+    font-size: 14px; 
+}
+
+.input-results {
+    width: 30%; 
+    padding: 7px 12px; 
+    border: 1px solid gray; 
+    border-radius: 6px; 
+    font-size: 14px; 
+}
+
+.button {
+    color: white; 
+    border: none; 
+    padding: 8px 20px; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    background-color: #3c5172;
+    margin-top: 5px; 
+    margin-bottom: 5px;  
+}
+
+.button:hover {
+    background-color: #293951; 
+}
+
+.button-results {
+    color: white; 
+    border: none; 
+    padding: 8px 20px; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    background-color:#2d2d2d; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+.button-results:hover {
+    background-color: #191919; 
+}
+
+.button-css-container {
+    text-align: center; 
+    padding: 30px; 
+}
+
+.results-container {
+    width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.result {
+    background-color: rgba(250, 250, 250, 0.6); 
+    border-radius: 6px; 
+    padding: 40px 100px; 
+    margin: 15px 0px; 
+}
+
+.result-title {
+    background-color:rgba(43, 40, 40, 0.8); 
+    border-radius: 6px; 
+    padding: 30px 100px; 
+    margin: 15px 0px; 
+    text-align: center; 
+}
+
+.result-title h2 {
+    color: white; 
+    font-size: 30px;
+    margin: 0px;  
+}
+
+.weather-icon {
+    float: right; 
+    width: 70px; 
+    position: relative; 
+    top: -50px; 
+}
+
+@media screen and (max-width:536px){
+    .results-container {
+        width: 90%; 
+    }
+
+    .result {
+        padding: 30px 30px; 
+    }
+    
+    .result-title {
+        padding: 30px 30px;  
+    }
+}
