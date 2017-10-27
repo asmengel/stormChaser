@@ -1,5 +1,5 @@
 const key = '9cddf4547a3ac49b1bdd981f1459ec09';
-const apiurl = "http://api.openweathermap.org/data/2.5/forecast?";
+const apiurl = "https://api.openweathermap.org/data/2.5/forecast?";
 
 const STORE = {
     state: [],
@@ -114,7 +114,6 @@ function createDate(rawdata) {
     return `${month} ${day}, ${year}`;
 }
 
-// append and add class to html
 function generateToday() {
     return `
     <div class="result-title">
