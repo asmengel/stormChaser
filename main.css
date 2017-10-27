@@ -128,7 +128,19 @@ body {
     top: -50px; 
 }
 
-@media screen and (max-width:536px){
+
+@media screen and (max-width:1024px){
+    body {
+        -webkit-background-size: 100%; 
+        -moz-background-size: 100%; 
+        -o-background-size: 100%; 
+        background-size: 100%; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover;
+    }
+    
     .results-container {
         width: 90%; 
     }
@@ -141,3 +153,17 @@ body {
         padding: 30px 30px;  
     }
 }
+/* @media screen and (max-width:536px){
+
+    .results-container {
+        width: 90%; 
+    }
+
+    .result {
+        padding: 30px 30px; 
+    }
+    
+    .result-title {
+        padding: 30px 30px;  
+    }
+} */
