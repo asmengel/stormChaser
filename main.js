@@ -121,7 +121,7 @@ function generateToday() {
     </div>
     <div class='today-result result'>
         <h2 class="today">Today</h2>
-        <img src="http://openweathermap.org/img/w/${STORE.data.list[0].weather[0].icon}.png" alt+"weather pic" class="weather-icon">
+        <img src="https://openweathermap.org/img/w/${STORE.data.list[0].weather[0].icon}.png" alt+"weather pic" class="weather-icon">
         <p><b>${toTitleCase(STORE.data.list[0].weather[0].description)}</b> </p>
         <p><b>Temperature:</b> ${Math.floor((STORE.data.list[0].main.temp) * 9 / 5 - 459.67)} &#176F</p>
         <p><b>Humidity:</b> ${STORE.data.list[0].main.humidity}%</p>
