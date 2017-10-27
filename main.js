@@ -140,7 +140,7 @@ function generateDay(dataArr) {
         $('.js-results-container').append(`
         <div class='future-result result'>
         <h2>${createDate(STORE.data.list[dayIndex].dt_txt)}</h2>
-            <img src="http://openweathermap.org/img/w/${STORE.data.list[dayIndex].weather[0].icon}.png" alt+"weather pic" class="weather-icon">
+            <img src="https://openweathermap.org/img/w/${STORE.data.list[dayIndex].weather[0].icon}.png" alt+"weather pic" class="weather-icon">
             <p><b>${toTitleCase(STORE.data.list[dayIndex].weather[0].description)}</b> </p>
             <p><b>Temperature:</b> ${Math.floor((STORE.data.list[dayIndex].main.temp) * 9 / 5 - 459.67)} &#176F</p>
             <p><b>Humidity:</b> ${STORE.data.list[dayIndex].main.humidity}%</p>
