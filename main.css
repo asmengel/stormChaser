@@ -142,6 +142,7 @@ body {
     }
     
     .results-container {
+        height: 40%;
         width: 40%; 
     }
 
