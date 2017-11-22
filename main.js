@@ -43,9 +43,9 @@ function createHtml() {
     if (STORE.currentsetting === 'today') {
         string = generateToday();
     } else if (STORE.currentsetting === '3Day') {
-        string = generateDay([0, 7, 15]);
+        string = generateDay([0, 8, 16]);
     } else if (STORE.currentsetting === '5Day') {
-        string = generateDay([0, 7, 15, 23, 30]);
+        string = generateDay([0, 8, 16, 24, 32]);
     } else { console.log('There was an error') }
     renderHtml(string);
 }
