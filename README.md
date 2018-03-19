@@ -1,7 +1,5 @@
 # stormChaser
 
-Originally deployed September 28, 2017.
-
 
 ## Functionality 
 
@@ -10,7 +8,7 @@ It displays the data in an elquent manner, it also works in cities around the wo
 
 Fully functional on mobile devices. 
 
-A live demo is located at this address https://asmengel.github.io/stormChaser/
+A live demo is located <a href="http://anthonymengel.com/stormChaser/stormChaser.html">here</a>.
 
 
 
