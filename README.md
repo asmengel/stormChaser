@@ -25,5 +25,9 @@ JQUERY
 
 AJAX
 
+## Screen Shots
+
+<img src="./images/sC-home.png">
+<img src="./images/sC-results.png">
 
 This app is pulling weather data from Open Weather.  https://openweathermap.org/api
