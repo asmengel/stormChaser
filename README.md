@@ -8,7 +8,7 @@ It displays the data in an elquent manner, it also works in cities around the wo
 
 Fully functional on mobile devices. 
 
-A live demo is located <a href="http://anthonymengel.com/stormChaser/stormChaser.html">here</a>.
+A live demo is located <a target="_blank" href="http://anthonymengel.com/stormChaser/stormChaser.html">here</a>.
 
 
 
